@@ -1,4 +1,5 @@
 fish_add_path /opt/homebrew/bin
+source ~/.aliases
 
 if status is-interactive
 
@@ -11,6 +12,7 @@ if status is-interactive
         printf '%s%s> ' (prompt_pwd) (set_color yellow; fish_git_prompt; set_color normal)
     end
 end
+
 
 
 abbr --add .git "git --git-dir=$HOME/dots.git --work-tree=$HOME"
