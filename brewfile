@@ -1,0 +1,12 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+brew "fd"
+brew "go"
+brew "fastlane"
+
+cask "rectangle"
+cask "firefox"
+cask "iterm2"
+cask "docker"
+cask "adoptopenjdk/openjdk/adoptopenjdk8"
