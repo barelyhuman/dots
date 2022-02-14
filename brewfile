@@ -1,6 +1,7 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+tap "homebrew/cask-fonts"
 brew "fd"
 brew "go"
 brew "fastlane"
@@ -10,3 +11,5 @@ cask "firefox"
 cask "iterm2"
 cask "docker"
 cask "adoptopenjdk/openjdk/adoptopenjdk8"
+cask "font-fira-code"
+
